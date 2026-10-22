@@ -1,0 +1,27 @@
+{
+  "short_name": "Al Syed",
+  "name": "Al Syed Distribution App",
+  "description": "Wholesale distribution app for routes, orders, payments, inventory, reporting, and delivery management.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#071525",
+  "theme_color": "#142b45",
+  "orientation": "portrait",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

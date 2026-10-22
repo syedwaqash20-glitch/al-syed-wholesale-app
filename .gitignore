@@ -1,0 +1,35 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases and runtime files
+/Backend/wholesale_app.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and build output
+Frontend/node_modules/
+Frontend/dist/
+.vercel/
+
+# Native mobile build artifacts
+Frontend/android/
+Frontend/capacitor.config.json
+*.apk
+*.aab
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

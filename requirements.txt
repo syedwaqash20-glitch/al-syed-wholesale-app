@@ -1,0 +1,6 @@
+fastapi[standard]
+uvicorn[standard]
+pydantic
+python-dotenv
+libsql-client
+gunicorn
